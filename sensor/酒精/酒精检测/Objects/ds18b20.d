@@ -1,0 +1,12 @@
+.\objects\ds18b20.o: USER\Source\ds18b20.c
+.\objects\ds18b20.o: .\USER\Include\ds18b20.h
+.\objects\ds18b20.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\ds18b20.o: .\CMSIS\Include\core_cm4.h
+.\objects\ds18b20.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ds18b20.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\ds18b20.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\ds18b20.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\ds18b20.o: .\CMSIS\Include\system_stm32f4xx.h
+.\objects\ds18b20.o: .\USER\Include\iobit.h
+.\objects\ds18b20.o: .\USER\Include\systick.h
+.\objects\ds18b20.o: .\USER\Include\key.h

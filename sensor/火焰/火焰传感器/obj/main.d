@@ -1,0 +1,13 @@
+.\obj\main.o: user\src\main.c
+.\obj\main.o: .\CMSIS\Include\stm32f4xx.h
+.\obj\main.o: .\CMSIS\Include\core_cm4.h
+.\obj\main.o: C:\zxx\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\main.o: .\CMSIS\Include\core_cmInstr.h
+.\obj\main.o: .\CMSIS\Include\core_cmFunc.h
+.\obj\main.o: .\CMSIS\Include\core_cm4_simd.h
+.\obj\main.o: .\CMSIS\Include\system_stm32f4xx.h
+.\obj\main.o: .\user\inc\led.h
+.\obj\main.o: .\user\inc\hc_sr.h
+.\obj\main.o: .\user\inc\key.h
+.\obj\main.o: C:\zxx\KEIL5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\main.o: .\user\inc\systick.h

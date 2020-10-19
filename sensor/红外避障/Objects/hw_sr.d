@@ -1,0 +1,9 @@
+.\objects\hw_sr.o: user\src\hw_sr.c
+.\objects\hw_sr.o: .\user\inc\hw_sr.h
+.\objects\hw_sr.o: .\cmsis\Include\stm32f4xx.h
+.\objects\hw_sr.o: .\cmsis\Include\core_cm4.h
+.\objects\hw_sr.o: E:\Kill5\UV4\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hw_sr.o: .\cmsis\Include\core_cmInstr.h
+.\objects\hw_sr.o: .\cmsis\Include\core_cmFunc.h
+.\objects\hw_sr.o: .\cmsis\Include\core_cm4_simd.h
+.\objects\hw_sr.o: .\cmsis\Include\system_stm32f4xx.h

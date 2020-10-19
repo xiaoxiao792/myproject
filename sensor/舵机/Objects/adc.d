@@ -1,0 +1,9 @@
+.\objects\adc.o: USER\Source\adc.c
+.\objects\adc.o: .\USER\Include\adc.h
+.\objects\adc.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\adc.o: .\CMSIS\Include\core_cm4.h
+.\objects\adc.o: C:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\adc.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\adc.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\adc.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\adc.o: .\CMSIS\Include\system_stm32f4xx.h

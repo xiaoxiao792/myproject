@@ -1,0 +1,10 @@
+.\objects\w25q64.o: USER\Source\w25q64.c
+.\objects\w25q64.o: .\USER\Include\w25q64.h
+.\objects\w25q64.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\w25q64.o: .\CMSIS\Include\core_cm4.h
+.\objects\w25q64.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\w25q64.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\w25q64.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\w25q64.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\w25q64.o: .\CMSIS\Include\system_stm32f4xx.h
+.\objects\w25q64.o: .\USER\Include\spi.h

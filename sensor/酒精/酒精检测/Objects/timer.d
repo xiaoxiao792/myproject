@@ -1,0 +1,11 @@
+.\objects\timer.o: USER\Source\timer.c
+.\objects\timer.o: .\USER\Include\timer.h
+.\objects\timer.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\timer.o: .\CMSIS\Include\core_cm4.h
+.\objects\timer.o: C:\zxx\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\timer.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\timer.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\timer.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\timer.o: .\CMSIS\Include\system_stm32f4xx.h
+.\objects\timer.o: .\USER\Include\usart1.h
+.\objects\timer.o: C:\zxx\KEIL5\ARM\ARMCC\Bin\..\include\stdio.h

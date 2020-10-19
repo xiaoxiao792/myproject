@@ -1,0 +1,9 @@
+.\obj\systick.o: user\src\systick.c
+.\obj\systick.o: .\CMSIS\Include\stm32f4xx.h
+.\obj\systick.o: .\CMSIS\Include\core_cm4.h
+.\obj\systick.o: C:\zxx\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\systick.o: .\CMSIS\Include\core_cmInstr.h
+.\obj\systick.o: .\CMSIS\Include\core_cmFunc.h
+.\obj\systick.o: .\CMSIS\Include\core_cm4_simd.h
+.\obj\systick.o: .\CMSIS\Include\system_stm32f4xx.h
+.\obj\systick.o: .\user\inc\led.h

@@ -1,0 +1,15 @@
+.\objects\lcd.o: USER\Source\lcd.c
+.\objects\lcd.o: .\USER\Include\lcd.h
+.\objects\lcd.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\lcd.o: .\CMSIS\Include\core_cm4.h
+.\objects\lcd.o: C:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lcd.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\lcd.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\lcd.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\lcd.o: .\CMSIS\Include\system_stm32f4xx.h
+.\objects\lcd.o: .\USER\Include\ILI9486.h
+.\objects\lcd.o: .\USER\Include\systick.h
+.\objects\lcd.o: .\USER\Include\font.h
+.\objects\lcd.o: C:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\lcd.o: .\USER\Include\YM_Image.h
+.\objects\lcd.o: .\USER\Include\w25q64.h

@@ -1,0 +1,9 @@
+.\obj\hc_sr.o: user\src\hc_sr.c
+.\obj\hc_sr.o: .\CMSIS\Include\stm32f4xx.h
+.\obj\hc_sr.o: .\CMSIS\Include\core_cm4.h
+.\obj\hc_sr.o: C:\zxx\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\hc_sr.o: .\CMSIS\Include\core_cmInstr.h
+.\obj\hc_sr.o: .\CMSIS\Include\core_cmFunc.h
+.\obj\hc_sr.o: .\CMSIS\Include\core_cm4_simd.h
+.\obj\hc_sr.o: .\CMSIS\Include\system_stm32f4xx.h
+.\obj\hc_sr.o: .\user\inc\led.h

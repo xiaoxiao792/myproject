@@ -1,0 +1,10 @@
+.\objects\ili9486.o: USER\Source\ili9486.c
+.\objects\ili9486.o: .\USER\Include\ILI9486.h
+.\objects\ili9486.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\ili9486.o: .\CMSIS\Include\core_cm4.h
+.\objects\ili9486.o: C:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ili9486.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\ili9486.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\ili9486.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\ili9486.o: .\CMSIS\Include\system_stm32f4xx.h
+.\objects\ili9486.o: .\USER\Include\systick.h

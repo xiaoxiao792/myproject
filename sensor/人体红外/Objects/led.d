@@ -1,0 +1,10 @@
+.\objects\led.o: user\src\led.c
+.\objects\led.o: .\cmsis\Include\stm32f4xx.h
+.\objects\led.o: .\cmsis\Include\core_cm4.h
+.\objects\led.o: E:\Kill5\UV4\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: .\cmsis\Include\core_cmInstr.h
+.\objects\led.o: .\cmsis\Include\core_cmFunc.h
+.\objects\led.o: .\cmsis\Include\core_cm4_simd.h
+.\objects\led.o: .\cmsis\Include\system_stm32f4xx.h
+.\objects\led.o: .\user\inc\led.h
+.\objects\led.o: .\user\inc\key.h

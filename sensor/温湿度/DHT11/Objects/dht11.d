@@ -1,0 +1,12 @@
+.\objects\dht11.o: USER\SRC\dht11.c
+.\objects\dht11.o: .\USER\INC\dht11.h
+.\objects\dht11.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\dht11.o: .\CMSIS\Include\core_cm4.h
+.\objects\dht11.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\dht11.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\dht11.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\dht11.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\dht11.o: .\CMSIS\Include\system_stm32f4xx.h
+.\objects\dht11.o: .\USER\INC\systick.h
+.\objects\dht11.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\dht11.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

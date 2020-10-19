@@ -1,0 +1,15 @@
+--cpu Cortex-M4.fp
+".\objects\startup_stm32f40_41xxx.o"
+".\objects\system_stm32f4xx.o"
+".\objects\main.o"
+".\objects\led.o"
+".\objects\key.o"
+".\objects\beep.o"
+".\objects\usart1.o"
+".\objects\hw_sr.o"
+".\objects\hc_sr.o"
+".\objects\systick.o"
+--library_type=microlib --strict --scatter ".\Objects\stm32f4xx_project.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\stm32f4xx_project.map" -o .\Objects\stm32f4xx_project.axf

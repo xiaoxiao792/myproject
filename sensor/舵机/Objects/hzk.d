@@ -1,0 +1,11 @@
+.\objects\hzk.o: USER\Source\hzk.c
+.\objects\hzk.o: .\USER\Include\hzk.h
+.\objects\hzk.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\hzk.o: .\CMSIS\Include\core_cm4.h
+.\objects\hzk.o: C:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\hzk.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\hzk.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\hzk.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\hzk.o: .\CMSIS\Include\system_stm32f4xx.h
+.\objects\hzk.o: .\USER\Include\w25q64.h
+.\objects\hzk.o: .\USER\Include\spi.h

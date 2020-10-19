@@ -1,0 +1,15 @@
+.\objects\touch.o: USER\Source\touch.c
+.\objects\touch.o: .\USER\Include\touch.h
+.\objects\touch.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\touch.o: .\CMSIS\Include\core_cm4.h
+.\objects\touch.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\touch.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\touch.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\touch.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\touch.o: .\CMSIS\Include\system_stm32f4xx.h
+.\objects\touch.o: .\USER\Include\systick.h
+.\objects\touch.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\touch.o: .\USER\Include\lcd.h
+.\objects\touch.o: .\USER\Include\ILI9486.h
+.\objects\touch.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\touch.o: .\USER\Include\at24c02.h

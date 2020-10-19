@@ -1,0 +1,79 @@
+Dependencies for Project 'stm32f4_project', Target 'STM32F4': (DO NOT MODIFY !)
+F (.\cmsis\startup_stm32f40_41xxx.s)(0x53DBBC54)(--cpu Cortex-M4.fp -g --apcs=interwork -I E:\信盈达教学\套件盒子资料\信盈达物联网创新实验套件\3.18个模块资料&驱动代码\5.火焰传感器\4.示例代码\基于信盈达物联网M4核心板\火焰传感器\RTE-I C:\zxx\KEIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Device\Include--pd "__UVISION_VERSION SETA 520" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1"--list .\list\startup_stm32f40_41xxx.lst --xref -o .\obj\startup_stm32f40_41xxx.o --depend .\obj\startup_stm32f40_41xxx.d)
+F (.\cmsis\system_stm32f4xx.c)(0x5B714F92)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I .\CMSIS\Include -I .\user\inc-I E:\信盈达教学\套件盒子资料\信盈达物联网创新实验套件\3.18个模块资料&驱动代码\5.火焰传感器\4.示例代码\基于信盈达物联网M4核心板\火焰传感器\RTE-I C:\zxx\KEIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx-o .\obj\system_stm32f4xx.o --omf_browse .\obj\system_stm32f4xx.crf --depend .\obj\system_stm32f4xx.d)
+I (.\CMSIS\Include\stm32f4xx.h)(0x53DBA48A)
+I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
+I (C:\zxx\KEIL5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\Include\system_stm32f4xx.h)(0x53DBA49A)
+F (.\user\src\main.c)(0x5CDD246E)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I .\CMSIS\Include -I .\user\inc-I E:\信盈达教学\套件盒子资料\信盈达物联网创新实验套件\3.18个模块资料&驱动代码\5.火焰传感器\4.示例代码\基于信盈达物联网M4核心板\火焰传感器\RTE-I C:\zxx\KEIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (.\CMSIS\Include\stm32f4xx.h)(0x53DBA48A)
+I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
+I (C:\zxx\KEIL5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\Include\system_stm32f4xx.h)(0x53DBA49A)
+I (.\user\inc\led.h)(0x5BCE972A)
+I (.\user\inc\hc_sr.h)(0x5B715036)
+I (.\user\inc\key.h)(0x5B715045)
+I (C:\zxx\KEIL5\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (.\user\inc\systick.h)(0x5A12F98F)
+F (.\user\src\led.c)(0x5CD63FB4)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I .\CMSIS\Include -I .\user\inc-I E:\信盈达教学\套件盒子资料\信盈达物联网创新实验套件\3.18个模块资料&驱动代码\5.火焰传感器\4.示例代码\基于信盈达物联网M4核心板\火焰传感器\RTE-I C:\zxx\KEIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx-o .\obj\led.o --omf_browse .\obj\led.crf --depend .\obj\led.d)
+I (.\CMSIS\Include\stm32f4xx.h)(0x53DBA48A)
+I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
+I (C:\zxx\KEIL5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\Include\system_stm32f4xx.h)(0x53DBA49A)
+I (.\user\inc\led.h)(0x5BCE972A)
+I (.\user\inc\key.h)(0x5B715045)
+F (.\user\src\beep.c)(0x5B8F4752)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I .\CMSIS\Include -I .\user\inc-I E:\信盈达教学\套件盒子资料\信盈达物联网创新实验套件\3.18个模块资料&驱动代码\5.火焰传感器\4.示例代码\基于信盈达物联网M4核心板\火焰传感器\RTE-I C:\zxx\KEIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx-o .\obj\beep.o --omf_browse .\obj\beep.crf --depend .\obj\beep.d)
+I (.\user\inc\beep.h)(0x5B8F475D)
+I (.\CMSIS\Include\stm32f4xx.h)(0x53DBA48A)
+I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
+I (C:\zxx\KEIL5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\Include\system_stm32f4xx.h)(0x53DBA49A)
+F (.\user\src\key.c)(0x5B71504C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I .\CMSIS\Include -I .\user\inc-I E:\信盈达教学\套件盒子资料\信盈达物联网创新实验套件\3.18个模块资料&驱动代码\5.火焰传感器\4.示例代码\基于信盈达物联网M4核心板\火焰传感器\RTE-I C:\zxx\KEIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx-o .\obj\key.o --omf_browse .\obj\key.crf --depend .\obj\key.d)
+I (.\CMSIS\Include\stm32f4xx.h)(0x53DBA48A)
+I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
+I (C:\zxx\KEIL5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\Include\system_stm32f4xx.h)(0x53DBA49A)
+I (.\user\inc\led.h)(0x5BCE972A)
+I (.\user\inc\key.h)(0x5B715045)
+F (.\user\src\systick.c)(0x5A12F991)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I .\CMSIS\Include -I .\user\inc-I E:\信盈达教学\套件盒子资料\信盈达物联网创新实验套件\3.18个模块资料&驱动代码\5.火焰传感器\4.示例代码\基于信盈达物联网M4核心板\火焰传感器\RTE-I C:\zxx\KEIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx-o .\obj\systick.o --omf_browse .\obj\systick.crf --depend .\obj\systick.d)
+I (.\CMSIS\Include\stm32f4xx.h)(0x53DBA48A)
+I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
+I (C:\zxx\KEIL5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\Include\system_stm32f4xx.h)(0x53DBA49A)
+I (.\user\inc\led.h)(0x5BCE972A)
+F (.\user\src\time.c)(0x5B8F47F1)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I .\CMSIS\Include -I .\user\inc-I E:\信盈达教学\套件盒子资料\信盈达物联网创新实验套件\3.18个模块资料&驱动代码\5.火焰传感器\4.示例代码\基于信盈达物联网M4核心板\火焰传感器\RTE-I C:\zxx\KEIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx-o .\obj\time.o --omf_browse .\obj\time.crf --depend .\obj\time.d)
+I (.\CMSIS\Include\stm32f4xx.h)(0x53DBA48A)
+I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
+I (C:\zxx\KEIL5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\Include\system_stm32f4xx.h)(0x53DBA49A)
+I (.\user\inc\led.h)(0x5BCE972A)
+F (.\user\src\hc_sr.c)(0x5CD641FF)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I .\CMSIS\Include -I .\user\inc-I E:\信盈达教学\套件盒子资料\信盈达物联网创新实验套件\3.18个模块资料&驱动代码\5.火焰传感器\4.示例代码\基于信盈达物联网M4核心板\火焰传感器\RTE-I C:\zxx\KEIL5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-I C:\zxx\KEIL5\ARM\PACK\Keil\STM32F4xx_DFP\2.7.0\Device\Include-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx-o .\obj\hc_sr.o --omf_browse .\obj\hc_sr.crf --depend .\obj\hc_sr.d)
+I (.\CMSIS\Include\stm32f4xx.h)(0x53DBA48A)
+I (.\CMSIS\Include\core_cm4.h)(0x53C7D532)
+I (C:\zxx\KEIL5\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (.\CMSIS\Include\core_cmInstr.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cmFunc.h)(0x53C7D532)
+I (.\CMSIS\Include\core_cm4_simd.h)(0x53C7D532)
+I (.\CMSIS\Include\system_stm32f4xx.h)(0x53DBA49A)
+I (.\user\inc\led.h)(0x5BCE972A)

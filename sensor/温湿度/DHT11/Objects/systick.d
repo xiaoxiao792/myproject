@@ -1,0 +1,11 @@
+.\objects\systick.o: USER\SRC\systick.c
+.\objects\systick.o: .\USER\INC\systick.h
+.\objects\systick.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\systick.o: .\CMSIS\Include\core_cm4.h
+.\objects\systick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systick.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\systick.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\systick.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\systick.o: .\CMSIS\Include\system_stm32f4xx.h
+.\objects\systick.o: .\USER\INC\key.h
+.\objects\systick.o: .\USER\INC\usart.h

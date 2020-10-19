@@ -1,0 +1,9 @@
+.\objects\usart2.o: USER\Source\usart2.c
+.\objects\usart2.o: .\USER\Include\usart2.h
+.\objects\usart2.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\usart2.o: .\CMSIS\Include\core_cm4.h
+.\objects\usart2.o: E:\Kill5\UV4\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\usart2.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\usart2.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\usart2.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\usart2.o: .\CMSIS\Include\system_stm32f4xx.h

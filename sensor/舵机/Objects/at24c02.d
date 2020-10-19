@@ -1,0 +1,12 @@
+.\objects\at24c02.o: USER\Source\at24c02.c
+.\objects\at24c02.o: .\USER\Include\at24c02.h
+.\objects\at24c02.o: .\CMSIS\Include\stm32f4xx.h
+.\objects\at24c02.o: .\CMSIS\Include\core_cm4.h
+.\objects\at24c02.o: C:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\at24c02.o: .\CMSIS\Include\core_cmInstr.h
+.\objects\at24c02.o: .\CMSIS\Include\core_cmFunc.h
+.\objects\at24c02.o: .\CMSIS\Include\core_cm4_simd.h
+.\objects\at24c02.o: .\CMSIS\Include\system_stm32f4xx.h
+.\objects\at24c02.o: .\USER\Include\iic.h
+.\objects\at24c02.o: .\USER\Include\systick.h
+.\objects\at24c02.o: C:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h

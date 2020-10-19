@@ -1,0 +1,54 @@
+Dependencies for Project 'stm32f4_project', Target 'STM32F4': (DO NOT MODIFY !)
+F (.\cmsis\startup_stm32f40_41xxx.s)(0x53DBBC54)(--cpu Cortex-M4.fp -g --apcs=interwork -I "E:\m3 ruanjian\ARM\RV31\INC"-I "E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\m3 ruanjian\ARM\Inc\ST\STM32F4xx"--list .\list\startup_stm32f40_41xxx.lst --xref -o .\obj\startup_stm32f40_41xxx.o --depend .\obj\startup_stm32f40_41xxx.d)
+F (.\cmsis\system_stm32f4xx.c)(0x53DBBB10)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\cmsis -I.\user\inc-I "E:\m3 ruanjian\ARM\RV31\INC"-I "E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\m3 ruanjian\ARM\Inc\ST\STM32F4xx"-DSTM32F40_41xxx -DSTM32F40_41xxx-o .\obj\system_stm32f4xx.o --omf_browse .\obj\system_stm32f4xx.crf --depend .\obj\system_stm32f4xx.d)
+I (cmsis\stm32f4xx.h)(0x53DBA48A)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm4.h)(0x538426C6)
+I (E:\m3 ruanjian\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm4_simd.h)(0x5302A2D0)
+I (cmsis\system_stm32f4xx.h)(0x53DBA49A)
+F (.\user\src\main.c)(0x58FDB435)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\cmsis -I.\user\inc-I "E:\m3 ruanjian\ARM\RV31\INC"-I "E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\m3 ruanjian\ARM\Inc\ST\STM32F4xx"-DSTM32F40_41xxx -DSTM32F40_41xxx-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (.\cmsis\stm32f4xx.h)(0x53DBA48A)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm4.h)(0x538426C6)
+I (E:\m3 ruanjian\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm4_simd.h)(0x5302A2D0)
+I (.\cmsis\system_stm32f4xx.h)(0x53DBA49A)
+I (.\user\inc\led.h)(0x58FD7D1C)
+I (.\user\inc\io_bit.h)(0x58FD7285)
+I (.\user\inc\beep.h)(0x58FDA46B)
+I (.\user\inc\key.h)(0x58FDB1CC)
+F (.\user\src\led.c)(0x58FD9F7A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\cmsis -I.\user\inc-I "E:\m3 ruanjian\ARM\RV31\INC"-I "E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\m3 ruanjian\ARM\Inc\ST\STM32F4xx"-DSTM32F40_41xxx -DSTM32F40_41xxx-o .\obj\led.o --omf_browse .\obj\led.crf --depend .\obj\led.d)
+I (.\cmsis\stm32f4xx.h)(0x53DBA48A)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm4.h)(0x538426C6)
+I (E:\m3 ruanjian\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm4_simd.h)(0x5302A2D0)
+I (.\cmsis\system_stm32f4xx.h)(0x53DBA49A)
+I (.\user\inc\led.h)(0x58FD7D1C)
+I (.\user\inc\io_bit.h)(0x58FD7285)
+F (.\user\src\beep.c)(0x58FDA51B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\cmsis -I.\user\inc-I "E:\m3 ruanjian\ARM\RV31\INC"-I "E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\m3 ruanjian\ARM\Inc\ST\STM32F4xx"-DSTM32F40_41xxx -DSTM32F40_41xxx-o .\obj\beep.o --omf_browse .\obj\beep.crf --depend .\obj\beep.d)
+I (.\cmsis\stm32f4xx.h)(0x53DBA48A)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm4.h)(0x538426C6)
+I (E:\m3 ruanjian\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm4_simd.h)(0x5302A2D0)
+I (.\cmsis\system_stm32f4xx.h)(0x53DBA49A)
+I (.\user\inc\beep.h)(0x58FDA46B)
+I (.\user\inc\io_bit.h)(0x58FD7285)
+I (.\user\inc\led.h)(0x58FD7D1C)
+F (.\user\src\key.c)(0x58FDB4B1)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork -I.\cmsis -I.\user\inc-I "E:\m3 ruanjian\ARM\RV31\INC"-I "E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\m3 ruanjian\ARM\Inc\ST\STM32F4xx"-DSTM32F40_41xxx -DSTM32F40_41xxx-o .\obj\key.o --omf_browse .\obj\key.crf --depend .\obj\key.d)
+I (.\cmsis\stm32f4xx.h)(0x53DBA48A)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm4.h)(0x538426C6)
+I (E:\m3 ruanjian\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmInstr.h)(0x5302A2D0)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cmFunc.h)(0x5302A2D0)
+I (E:\m3 ruanjian\ARM\CMSIS\4.1.0\CMSIS\Include\core_cm4_simd.h)(0x5302A2D0)
+I (.\cmsis\system_stm32f4xx.h)(0x53DBA49A)
+I (.\user\inc\led.h)(0x58FD7D1C)
+I (.\user\inc\io_bit.h)(0x58FD7285)
+I (.\user\inc\key.h)(0x58FDB1CC)
