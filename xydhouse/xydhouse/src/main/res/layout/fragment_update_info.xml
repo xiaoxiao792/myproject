@@ -1,0 +1,195 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--设备id-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="设备ID:"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/fg_update_tv_deviceid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:text="0Xhello1231"
+            android:textColor="#3999EB"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <!--窗帘控制-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="窗帘控制:"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <!--下拉列表Spinner-->
+        <Spinner
+            android:id="@+id/fg_update_spinner_window"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <!--通风控制-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="通风控制:"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.xw.repo.BubbleSeekBar
+                android:id="@+id/fg_update_wind_bsb_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:bsb_max="100"
+                app:bsb_min="-100"
+                app:bsb_progress="0"
+                app:bsb_second_track_color="#45ABF9"
+                app:bsb_track_size="4dp" />
+
+
+            <TextView
+                android:id="@+id/fg_update_wind_tv_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="0"
+                android:textColor="#45ABF9"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </LinearLayout>
+    <!--智能插座-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="智能插座:"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+        <!--3个单选按钮-->
+        <RadioGroup
+            android:id="@+id/fg_update_rg_group"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/fg_update_rb_01"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawableLeft="@drawable/selector_fg_update_rb_bg"
+                android:gravity="center"
+                android:text="原态"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/fg_update_rb_02"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableLeft="@drawable/selector_fg_update_rb_bg"
+                android:gravity="center"
+                android:text="接通"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/fg_update_rb_03"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableLeft="@drawable/selector_fg_update_rb_bg"
+                android:gravity="center"
+                android:text="断开"
+                android:textSize="16sp" />
+        </RadioGroup>
+    </LinearLayout>
+    <!--灯光颜色-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="灯光颜色:"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/fg_updata_et_color"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_ac_device_btn_add"
+            android:gravity="center"
+            android:hint="请选择灯光颜色" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.edu118.xydhouse.view.ColorPickView
+            android:id="@+id/fg_update_color_picker_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center" />
+    </RelativeLayout>
+    <!--确认按钮-->
+    <Button
+        android:id="@+id/fg_update_btn_comfirm_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_ac_device_btn_refresh"
+        android:text="确认修改"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+</LinearLayout>

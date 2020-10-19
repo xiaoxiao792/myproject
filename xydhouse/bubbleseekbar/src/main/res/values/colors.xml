@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607D8B</color>
+    <color name="colorPrimaryDark">#389BEE</color>
+    <color name="colorAccent">#FF9800</color>
+
+    <color name="colorBubbleBarBg">#79B5E3</color>
+</resources>

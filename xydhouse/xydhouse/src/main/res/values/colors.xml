@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#389BF0</color>
+    <color name="colorPrimaryDark">#389BF0</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="rb_pressed_false">#389BEE</color><!--淡蓝色 -->
+    <color name="rb_pressed_true">#FFFFFF</color><!--白色 -->
+</resources>

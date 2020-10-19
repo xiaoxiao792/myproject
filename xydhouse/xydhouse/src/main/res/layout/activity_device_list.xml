@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--标题-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#3999EB"
+        android:text="设备列表"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="24sp"/>
+    <!--上下滑动控件-->
+    <ListView
+        android:padding="5dp"
+        android:id="@+id/ac_device_lv_litview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <!--确定、刷新-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:onClick="refreshDeviceInfo"
+            android:padding="5dp"
+            android:drawableTop="@mipmap/ac_device_list_refresh"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/shape_ac_device_btn_refresh"
+            android:text="刷新设备信息" />
+
+        <!--对Button做美化-->
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="addNewDevice"
+            android:padding="5dp"
+            android:textColor="#3999EB"
+            android:drawableTop="@mipmap/ac_device_list_add"
+            android:background="@drawable/shape_ac_device_btn_add"
+            android:text="添加一个新设备" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
