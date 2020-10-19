@@ -1,0 +1,124 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: oyy oyy, oyy, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DCM.DLL V1.13.2.0
+Target DLL:      UL2CM3.DLL V1.155.8.0
+Dialog DLL:      TCM.DLL V1.14.5.0
+ 
+<h2>Project:</h2>
+D:\×ÀÃæ\demo\study(2)\study\study.uvprojx
+Project File Date:  06/11/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling led.c...
+compiling main.c...
+.\user\inc\font.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+user\src\main.c(16): warning:  #1295-D: Deprecated declaration Interface_one - give arg types
+  void Interface_one();
+user\src\main.c(17): warning:  #1295-D: Deprecated declaration Interface_two - give arg types
+  void Interface_two();
+user\src\main.c(18): warning:  #1295-D: Deprecated declaration Interface_three - give arg types
+  void Interface_three();
+user\src\main.c(19): warning:  #1295-D: Deprecated declaration Interface_four - give arg types
+  void Interface_four();
+user\src\main.c(20): warning:  #1295-D: Deprecated declaration Interface_five - give arg types
+  void Interface_five();
+user\src\main.c(55): warning:  #111-D: statement is unreachable
+        return 0;
+user\src\main.c(155): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                                        sprintf(print_cardtype,"0x%02X %02X",CT[0],CT[1]);
+user\src\main.c(156): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                                        sprintf(print_id,"0x%02X %02X %02X %02X",card_id[0],card_id[1],card_id[2],card_id[3]);
+user\src\main.c(196): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+                        sprintf(print_info,"0x%02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X %02X",readDataBuf[0],readDataBuf[1],readDataBuf[2],readDataBuf[3],readDataBuf[4],readDataBuf[5],readDataBuf[6],readDataBuf[7],readDataBuf[8],readDataBuf[9],readDataBuf[10],readDataBuf[11],readDataBuf[12],readDataBuf[13],readDataBuf[14],readDataBuf[15]);
+user\src\main.c: 10 warnings, 0 errors
+compiling key.c...
+user\src\key.c(16): warning:  #61-D: integer operation result is out of range
+    
+PIOB->CRL &=~(15 << 4*7);  
+user\src\key.c(17): warning:  #61-D: integer operation result is out of range
+        
+PIOB->CRL |=(8 << 4*7);
+user\src\key.c(17): warning:  #68-D: integer conversion resulted in a change of sign
+        
+PIOB->CRL |=(8 << 4*7);
+user\src\key.c: 3 warnings, 0 errors
+compiling systick.c...
+compiling motor.c...
+compiling usart.c...
+user\src\usart.c(179): warning:  #1-D: last line of file ends without a newline
+        #endif 
+user\src\usart.c: 1 warning, 0 errors
+compiling mg200.c...
+.\user\inc\mg200.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif
+user\src\mg200.c(294): warning:  #68-D: integer conversion resulted in a change of sign
+        else         return -1;  //Ê§??
+user\src\mg200.c: 2 warnings, 0 errors
+compiling spi.c...
+user\src\spi.c(29): warning:  #61-D: integer operation result is out of range
+    
+PIOB->CRH &=~(0XF<<((15-8)*4));
+user\src\spi.c(30): warning:  #61-D: integer operation result is out of range
+        
+PIOB->CRH |=0XB<<((15-8)*4);
+user\src\spi.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+        
+PIOB->CRH |=0XB<<((15-8)*4);
+user\src\spi.c(73): warning:  #1-D: last line of file ends without a newline
+   
+user\src\spi.c: 4 warnings, 0 errors
+compiling oled.c...
+.\user\inc\font.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+user\src\oled.c(21): warning:  #61-D: integer operation result is out of range
+    
+PIOA->CRH &=~(0XF <<((15-8)*4));
+user\src\oled.c(369): warning:  #1-D: last line of file ends without a newline
+  }
+user\src\oled.c: 3 warnings, 0 errors
+compiling font.c...
+compiling voice.c...
+compiling rfid.c...
+user\src\rfid.c(20): warning:  #61-D: integer operation result is out of range
+        
+PIOA->CRL&=~(15<<7*4);
+user\src\rfid.c(567): warning:  #1-D: last line of file ends without a newline
+   
+user\src\rfid.c: 2 warnings, 0 errors
+compiling MPR121.c...
+compiling iic.c...
+compiling core_cm3.c...
+compiling system_stm32f10x.c...
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=8404 RO-data=7928 RW-data=44 ZI-data=1076  
+FromELF: creating hex file...
+".\Objects\study.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  D:\×ÀÃæ\demo\study(2)\study\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

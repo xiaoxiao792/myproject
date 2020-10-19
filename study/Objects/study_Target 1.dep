@@ -1,0 +1,122 @@
+Dependencies for Project 'study', Target 'Target 1': (DO NOT MODIFY !)
+F (.\user\src\led.c)(0x5EDDB54D)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (.\user\inc\led.h)(0x5EDDB711)
+F (.\user\src\main.c)(0x5EE355E5)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (.\user\inc\key.h)(0x5ECDC77B)
+I (.\user\inc\oled.h)(0x5ECDD520)
+I (.\user\inc\font.h)(0x5ECDD3E3)
+I (.\user\inc\systick.h)(0x5ECCBF3C)
+I (.\user\inc\iic.h)(0x5ECE14B7)
+I (.\user\inc\MPR121.h)(0x5ECE14B7)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (.\user\inc\voice.h)(0x5ECE1795)
+I (.\user\inc\spi.h)(0x5ECDD333)
+I (.\user\inc\rfid.h)(0x5EE21F62)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (.\user\inc\motor.h)(0x5EDDBFD4)
+I (.\user\inc\usart.h)(0x5EDEF348)
+F (.\user\src\key.c)(0x5EDDBBF7)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (.\user\inc\key.h)(0x5ECDC77B)
+I (.\user\inc\systick.h)(0x5ECCBF3C)
+F (.\user\src\systick.c)(0x5ECCBBD1)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
+I (.\user\inc\systick.h)(0x5ECCBF3C)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+F (.\user\src\motor.c)(0x5EDDD45E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (.\user\inc\motor.h)(0x5EDDBFD4)
+I (.\user\inc\systick.h)(0x5ECCBF3C)
+F (.\user\src\usart.c)(0x5EDF8A0C)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (.\user\inc\usart.h)(0x5EDEF348)
+F (.\user\src\mg200.c)(0x5EDF94AF)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\mg200.o --omf_browse .\objects\mg200.crf --depend .\objects\mg200.d)
+I (.\user\inc\mg200.h)(0x5EDF84DF)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (.\user\inc\usart.h)(0x5EDEF348)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (.\user\src\spi.c)(0x5ED21491)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (.\user\inc\spi.h)(0x5ECDD333)
+F (.\user\src\oled.c)(0x5EE0552A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\oled.o --omf_browse .\objects\oled.crf --depend .\objects\oled.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (.\user\inc\oled.h)(0x5ECDD520)
+I (.\user\inc\spi.h)(0x5ECDD333)
+I (.\user\inc\systick.h)(0x5ECCBF3C)
+I (.\user\inc\font.h)(0x5ECDD3E3)
+F (.\user\src\font.c)(0x5EE35645)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\font.o --omf_browse .\objects\font.crf --depend .\objects\font.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+F (.\user\src\voice.c)(0x5ECE178A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\voice.o --omf_browse .\objects\voice.crf --depend .\objects\voice.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (.\user\inc\voice.h)(0x5ECE1795)
+I (.\user\inc\systick.h)(0x5ECCBF3C)
+F (.\user\src\rfid.c)(0x5EE21F2A)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\rfid.o --omf_browse .\objects\rfid.crf --depend .\objects\rfid.d)
+I (.\user\inc\rfid.h)(0x5EE21F62)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (.\user\inc\spi.h)(0x5ECDD333)
+I (.\user\inc\systick.h)(0x5ECCBF3C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+F (.\user\src\MPR121.c)(0x5ECF6C28)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\mpr121.o --omf_browse .\objects\mpr121.crf --depend .\objects\mpr121.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (.\user\inc\MPR121.h)(0x5ECE14B7)
+I (.\user\inc\systick.h)(0x5ECCBF3C)
+I (.\user\inc\iic.h)(0x5ECE14B7)
+F (.\user\src\iic.c)(0x5ED0F6EE)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\iic.o --omf_browse .\objects\iic.crf --depend .\objects\iic.d)
+I (.\cmsis\stm32f10x.h)(0x4D783CB4)
+I (.\cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (.\user\inc\iic.h)(0x5ECE14B7)
+I (.\user\inc\systick.h)(0x5ECCBF3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (.\cmsis\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+F (.\cmsis\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I.\cmsis -I.\user\inc-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_MD -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (cmsis\stm32f10x.h)(0x4D783CB4)
+I (cmsis\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (cmsis\system_stm32f10x.h)(0x4D783CAA)
+F (.\cmsis\startup_stm32f10x_md.s)(0x4D783CD2)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\桌面\demo\study(2)\study\RTE-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)

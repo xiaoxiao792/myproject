@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+".\objects\led.o"
+".\objects\main.o"
+".\objects\key.o"
+".\objects\systick.o"
+".\objects\motor.o"
+".\objects\usart.o"
+".\objects\mg200.o"
+".\objects\spi.o"
+".\objects\oled.o"
+".\objects\font.o"
+".\objects\voice.o"
+".\objects\rfid.o"
+".\objects\mpr121.o"
+".\objects\iic.o"
+".\objects\core_cm3.o"
+".\objects\system_stm32f10x.o"
+".\objects\startup_stm32f10x_md.o"
+--library_type=microlib --strict --scatter ".\Objects\study.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\study.map" -o .\Objects\study.axf

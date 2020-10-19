@@ -1,0 +1,9 @@
+.\objects\rfid.o: user\src\rfid.c
+.\objects\rfid.o: .\user\inc\rfid.h
+.\objects\rfid.o: .\cmsis\stm32f10x.h
+.\objects\rfid.o: .\cmsis\core_cm3.h
+.\objects\rfid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\rfid.o: .\cmsis\system_stm32f10x.h
+.\objects\rfid.o: .\user\inc\spi.h
+.\objects\rfid.o: .\user\inc\systick.h
+.\objects\rfid.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
